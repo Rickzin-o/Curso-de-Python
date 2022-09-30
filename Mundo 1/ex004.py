@@ -1,0 +1,8 @@
+p = input('Digite alguma coisa: ')
+print('O tipo primitivo desse valor é', type(p))
+print('É composto apenas por números?', p.isnumeric())
+print('Composto apenas por letras?', p.isalpha())
+print('Composto apenas por espaços?', p.isspace())
+print('É alfanumérico?', p.isalnum())
+print('É composto apenas por letras minúsculas?', p.islower())
+print('Composto apenas por letras maiúsculas?', p.isupper())
